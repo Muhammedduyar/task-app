@@ -51,3 +51,9 @@ application:
 
 Giriş yaptığınızda JWT token alınır.
 Yetkilendirilmiş endpointlerde Authorization header'ına Bearer <token> ekleyerek istek atılır.
+
+List all api örneği
+![image](https://github.com/user-attachments/assets/eb835ed6-0664-410e-8bf0-825e7fc9fdc5)
+
+
+
