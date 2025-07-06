@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Task Manager Application
+  datasource:
+    url: jdbc:postgresql://localhost:5432/task_db
+    username: postgres
+    password: 1234
+
+application:
+  security:
+    jwt:
+      secret-key: Z3JvdXBzdXBwb3NlaGVhbHRoYXJlZHJpdmluZ3BvZXRhdHRhY2hlZHJpc2luZ2Rpc3Q=
+      expiration: 86400000
+      refresh-token:
+        expiration: 604800000
